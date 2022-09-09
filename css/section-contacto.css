@@ -1,0 +1,43 @@
+.title-contacto{
+    color: var(--bg--Title);
+    font-size: 2.5em;
+    justify-items: center;
+    text-align: center;    
+    margin: .5em;
+}
+.item-cont-desc{
+ color: black;
+ font-size: 1.5em;
+ font-weight: 300;
+ text-align: center; 
+}
+.item-cont-date{
+ color: black;
+ font-size: 1em;
+ text-align: center;
+}
+.section-contacto{
+    /* border: 5px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2em;
+    max-width: 950px;
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: 2em;
+}
+
+.item-contacto{
+    /* border: 5px solid blue; */
+    background-color: white;
+}
+.item-contact-img{
+    /* border: 5px solid brown;     */
+}
+.item-contact-descrip{
+    /* border: 5px solid violet; */
+    background-color: white;
+    padding: 2em .5em;
+}

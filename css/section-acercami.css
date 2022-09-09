@@ -1,0 +1,33 @@
+.acerca-mi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    max-width: 950px;
+    /* outline: 5px solid red; */
+    margin: auto;   
+
+}
+.title-ac{
+    color: var(--bg--Title);
+    font-size: 2.5em;
+    justify-items: center;
+    
+}
+.desc-ac{
+    margin-top: 2em;
+    color: var(--bg--parrafos);
+    text-align: center;
+    padding: .5em .5em;
+    
+}
+
+@media (min-width: 750px) {
+    .desc-ac{
+        margin-top: 2em;
+        color: var(--bg--parrafos);
+        text-align: center;
+        padding: .5em .5em;
+        font-size: 1.5em;
+    } 
+}

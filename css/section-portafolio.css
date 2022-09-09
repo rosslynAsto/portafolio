@@ -1,0 +1,15 @@
+.title-portafolio{
+    color: var(--bg--Title);
+    font-size: 2.5em;
+    justify-items: center;
+    text-align: center;    
+    margin: .5em;
+}
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    padding: 1em;
+  }
+
+
+

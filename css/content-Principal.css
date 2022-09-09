@@ -1,0 +1,438 @@
+.content-Principal{
+display: flex;
+/* background-color: aqua; */
+flex-direction: column;
+align-items: center;
+padding-bottom: 170px;
+padding-top: 5em;
+
+}
+.description-One{
+text-align: center;
+padding: 1em 1em;  
+
+}
+.linea{
+    border-top: 1px solid white;
+    height: 2px;
+    padding: .3em;
+    margin: 2px auto 0 auto;  
+}
+.description-One p:nth-child(1){
+    color: var(--bg--parrafos);
+    font-size: 1.5em;
+}
+.description-One p:nth-child(2){
+    color: var(--bg--Title);
+    font-size: 3.5em;
+}
+.desTres{
+    color: var(--bg--parrafos);
+    font-size: 1em;
+}
+
+.image{
+    background: var(--bg--figurasGeo);
+    border-radius: 50%;
+    background-image: url('/images/señoritaMobile.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+    height: 350px;
+    width: 310px;
+}
+.anio{
+    color: var(--bg--Title);
+    font-weight: 500;
+    margin: auto;
+    text-align: center;
+}
+.span{
+    color: var(--bg--parrafos);
+}
+
+.mis-redes{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+    padding-top: 2em;
+    height: 2em;  
+    gap: 2em;
+    margin: 1em;
+}
+.caja-red{
+    background-color: var(--bg--figGeoHijo);
+    border-radius: 50%; 
+    height: 3.5em;
+    width: 50px;
+}
+.caja-red:nth-child(1){
+    background-image: url(/images/linkedin.svg);
+    background-size: 35px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.caja-red:nth-child(2){
+    background-image: url(/images/instagram.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.caja-red:nth-child(3){
+    background-image: url(/images/twitter.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.redes{
+    height: 0px;
+    width: 90%;   
+    padding-top: 3em;
+    max-width: 950px;
+}
+
+.rectangulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg--figurasGeo);
+    height: 6em;
+    width: 100%;
+    gap:2em;
+    border-radius: 8px;
+    padding: .2em .5em;
+}
+.rectangulo-item{
+    border-radius: 8px;
+    background-color: var(--bg--figGeoHijo);
+    height: 3em;
+    width: 20%;      
+}
+.rectangulo-item:nth-child(1){
+   background-image: url(/images/google.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center center;
+}
+.rectangulo-item:nth-child(2){
+    background-image: url(/images/amazon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+ }
+ .rectangulo-item:nth-child(3){
+    background-image: url(/images/spotify.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+ }
+ /* 
+   Tablets, Mobiles (Landscape/horizontal)
+  ##Screen = B/w 481px to 767px
+*/
+ @media (min-width: 481px) and (max-width: 1024px)  {
+   
+    .description-One{
+        text-align: center;
+        padding: 1em 1em;  
+    }
+    .linea{
+        border-top: 1px solid white;
+        height: 20px;
+        padding: .3em;
+        margin: 2px auto 0 auto;  
+    }
+    .description-One p:nth-child(1){
+        color: var(--bg--parrafos);
+        font-size: 3.5em;
+        letter-spacing: .2em;
+        font-weight: 900;
+    }
+    .description-One p:nth-child(2){
+        color: var(--bg--Title);
+        font-size: 5.5em;
+        letter-spacing: .15em;
+        font-weight: 900;
+    }
+    .desTres{
+        color: var(--bg--parrafos);
+        font-size: 2em;
+    }
+        
+    .image{
+        background: var(--bg--figurasGeo);
+        border-radius: 50%;
+        background-image: url('/images/señorita.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+        height: 450px;
+        width: 410px;
+    }
+    .anio{
+        color: var(--bg--Title);
+        font-size: 2em;
+        font-weight: 500;
+        margin: auto;
+        text-align: center;
+    }
+    .caja-red{
+        background-color: var(--bg--figGeoHijo);
+        border-radius: 50%; 
+        height: 4.5em;
+        width: 60px;
+    }
+    .caja-red:nth-child(1){
+        background-image: url(/images/linkedin.svg);
+        background-size: 45px;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    .redes{
+        height: 0px;
+        width: 90%;   
+        padding-top: 3em;
+        max-width: 950px;
+     }
+        
+    .rectangulo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--bg--figurasGeo);
+        height: 8em;
+        width: 100%;
+        gap:2em;
+        border-radius: 8px;
+        padding: .2em .5em;
+    }
+    .rectangulo-item{
+        border-radius: 8px;
+        background-color: var(--bg--figGeoHijo);
+        height: 4.5em;
+        width: 20%;      
+    }
+ 
+ }
+
+ /* 
+  Desktops (Escritorio)
+  ##Screen = 1025px pantallas de escritorio de alta resolución
+*/
+
+@media (min-width: 1025px) {
+    .content-Principal{
+        display: flex;
+        flex-direction: column;
+       
+        /* background-color: rgb(223, 196, 58);         */
+        padding-bottom: 170px; 
+        width: 100%;
+        margin: auto;
+
+        }
+
+    .description-One{
+        text-align: left;
+        padding-top: 4em;         
+        /* border: 5px solid red; */
+        align-self: flex-start;
+        z-index: 100;
+        position: absolute;
+        margin-left: 2.5em;
+    }
+    .description-two{
+        /* border: 5px solid red; */
+        align-self: flex-start;
+        z-index: 100;
+        position: absolute;
+        padding-top: 24em;
+        padding-left: 1em;
+        margin-left: 2.5em;
+    }
+    .linea{
+        border-top: 1px solid white;
+        height: 20px;
+        padding: .3em;
+        margin: 2px auto 0 auto;  
+    }
+    .spanOne{
+        display: block;
+    }
+    .description-One p:nth-child(1){
+        color: var(--bg--parrafos);
+        font-size: 3.5em;
+        
+        font-weight: 900;
+    }
+    .description-One p:nth-child(2){
+        color: var(--bg--Title);
+        font-size: 5.5em;
+        
+        font-weight: 900;
+    }
+    .desTres{
+        color: var(--bg--parrafos);
+        font-size: 2em;
+    }
+        
+    .image{
+        background: var(--bg--figurasGeo);
+        border-radius: 50%;
+        background-image: url('/images/señorita.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+        height: 650px;
+        width: 610px;
+        position: relative;
+        z-index: 100;
+    }
+    .anio{
+        color: var(--bg--Title);
+        font-size: 2em;
+        font-weight: 500;      
+        text-align: left;
+    }
+    .mis-redes{ 
+        display: flex;
+        justify-content: left;
+        
+        /* background-color: blue; */
+        padding-top: 2em;
+        height: 2em;  
+        gap: 2em;
+        margin: .2em;
+    }
+    .caja-red{
+        background-color: var(--bg--figGeoHijo);
+        border-radius: 50%; 
+        height: 4.5em;
+        width: 65px;
+    }
+   
+    .caja-red:nth-child(1){
+        background-image: url(/images/linkedin.svg);
+        background-size: 45px;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    .redes{
+        height: 0px;
+        width: 90%;   
+        padding-top: 0em;
+        max-width: 950px;
+     }
+        
+    .rectangulo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--bg--figurasGeo);
+        height: 8em;
+        width: 100%;
+        gap:2em;
+        border-radius: 8px;
+        padding: .2em .5em;
+    }
+    .rectangulo-item{
+        border-radius: 8px;
+        background-color: var(--bg--figGeoHijo);
+        height: 5.5em;
+        width: 25%;      
+    }    
+    
+}
+ /* 
+  Tablets, Ipads (landscape/horizontal)
+  ##Screen = B/w 768px to 1024px
+*/
+
+/* @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+    .description-One{
+        text-align: center;
+        padding: 1em 1em;  
+    }
+    .linea{
+        border-top: 1px solid white;
+        height: 20px;
+        padding: .3em;
+        margin: 2px auto 0 auto;  
+    }
+    .description-One p:nth-child(1){
+        color: var(--bg--parrafos);
+        font-size: 3.5em;
+        letter-spacing: .2em;
+        font-weight: 900;
+    }
+    .description-One p:nth-child(2){
+        color: var(--bg--Title);
+        font-size: 5.5em;
+        letter-spacing: .15em;
+        font-weight: 900;
+    }
+    .desTres{
+        color: var(--bg--parrafos);
+        font-size: 2em;
+    }
+        
+    .image{
+        background: var(--bg--figurasGeo);
+        border-radius: 50%;
+        background-image: url('/images/señorita.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+        height: 450px;
+        width: 410px;
+    }
+    .anio{
+        color: var(--bg--Title);
+        font-size: 2em;
+        font-weight: 500;
+        margin: auto;
+        text-align: center;
+    }
+    .caja-red{
+        background-color: var(--bg--figGeoHijo);
+        border-radius: 50%; 
+        height: 4.5em;
+        width: 60px;
+    }
+    .caja-red:nth-child(1){
+        background-image: url(/images/linkedin.svg);
+        background-size: 45px;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    .redes{
+        height: 0px;
+        width: 90%;   
+        padding-top: 3em;
+        max-width: 950px;
+     }
+        
+    .rectangulo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--bg--figurasGeo);
+        height: 8em;
+        width: 100%;
+        gap:2em;
+        border-radius: 8px;
+        padding: .2em .5em;
+    }
+    .rectangulo-item{
+        border-radius: 8px;
+        background-color: var(--bg--figGeoHijo);
+        height: 4.5em;
+        width: 20%;      
+    }
+    
+  } */
+
