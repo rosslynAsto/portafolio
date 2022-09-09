@@ -34,7 +34,7 @@ padding: 1em 1em;
 .image{
     background: var(--bg--figurasGeo);
     border-radius: 50%;
-    background-image: url('/images/señoritaMobile.png');
+    background-image: url('../images/señoritaMobile.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
@@ -69,19 +69,19 @@ padding: 1em 1em;
     width: 50px;
 }
 .caja-red:nth-child(1){
-    background-image: url(/images/linkedin.svg);
+    background-image: url(../images/linkedin.svg);
     background-size: 35px;
     background-repeat: no-repeat;
     background-position: center center;
 }
 .caja-red:nth-child(2){
-    background-image: url(/images/instagram.svg);
+    background-image: url(../images/instagram.svg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 .caja-red:nth-child(3){
-    background-image: url(/images/twitter.svg);
+    background-image: url(../images/twitter.svg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
@@ -111,19 +111,19 @@ padding: 1em 1em;
     width: 20%;      
 }
 .rectangulo-item:nth-child(1){
-   background-image: url(/images/google.png);
+   background-image: url(../images/google.png);
    background-size: contain;
    background-repeat: no-repeat;
    background-position: center center;
 }
 .rectangulo-item:nth-child(2){
-    background-image: url(/images/amazon.png);
+    background-image: url(../images/amazon.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
  }
  .rectangulo-item:nth-child(3){
-    background-image: url(/images/spotify.png);
+    background-image: url(../images/spotify.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
@@ -165,7 +165,7 @@ padding: 1em 1em;
     .image{
         background: var(--bg--figurasGeo);
         border-radius: 50%;
-        background-image: url('/images/señorita.png');
+        background-image: url('../images/señorita.png');
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center center;
@@ -186,7 +186,7 @@ padding: 1em 1em;
         width: 60px;
     }
     .caja-red:nth-child(1){
-        background-image: url(/images/linkedin.svg);
+        background-image: url(../images/linkedin.svg);
         background-size: 45px;
         background-repeat: no-repeat;
         background-position: center center;
@@ -282,7 +282,7 @@ padding: 1em 1em;
     .image{
         background: var(--bg--figurasGeo);
         border-radius: 50%;
-        background-image: url('/images/señorita.png');
+        background-image: url('../images/señorita.png');
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center center;
@@ -315,7 +315,7 @@ padding: 1em 1em;
     }
    
     .caja-red:nth-child(1){
-        background-image: url(/images/linkedin.svg);
+        background-image: url(../images/linkedin.svg);
         background-size: 45px;
         background-repeat: no-repeat;
         background-position: center center;
@@ -383,7 +383,7 @@ padding: 1em 1em;
     .image{
         background: var(--bg--figurasGeo);
         border-radius: 50%;
-        background-image: url('/images/señorita.png');
+        background-image: url('../images/señorita.png');
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center center;
@@ -404,7 +404,7 @@ padding: 1em 1em;
         width: 60px;
     }
     .caja-red:nth-child(1){
-        background-image: url(/images/linkedin.svg);
+        background-image: url(../images/linkedin.svg);
         background-size: 45px;
         background-repeat: no-repeat;
         background-position: center center;
